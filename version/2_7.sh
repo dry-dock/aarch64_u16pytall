@@ -5,7 +5,7 @@ sudo apt-get install -y \
   python2.7=2.7.12* \
   python-dev=2.7.12* \
   python-pip=8.1.1* \
-  python-virtualenv=15.0.1+ds*
+  python-virtualenv=15.0*
 
 # Install virtualenv
 virtualenv -p python $HOME/venv/2.7
