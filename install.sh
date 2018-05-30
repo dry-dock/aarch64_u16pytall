@@ -7,7 +7,7 @@ apt-get install -y libxml2 libxml2-dev libxslt1.1 libxslt1-dev libffi-dev libssl
 
 wget -nv https://bootstrap.pypa.io/3.2/get-pip.py
 python get-pip.py
-python -m pip install pip==8.1*
+python -m pip install pip==8.1.1
 
 pip install setuptools
 
