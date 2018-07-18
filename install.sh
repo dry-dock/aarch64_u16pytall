@@ -11,12 +11,9 @@ python -m pip install pip==8.1.1
 
 pip install setuptools
 
-# Installing virtualenv-15.2.0
-wget -nv https://pypi.python.org/packages/b1/72/2d70c5a1de409ceb3a27ff2ec007ecdd5cc52239e7c74990e32af57affe9/virtualenv-15.2.0.tar.gz#md5=b5f6b473140cc627d19d0d203f3b63cc
-tar xvfz virtualenv-15.2.0.tar.gz
-cd virtualenv-15.2.0
-python setup.py install
-cd /
+# Installing virtualenv-16.0.0
+pip install -q virtualenv==16.0.0
+
 #!/bin/bash
 for file in /u16pytall/version/*;
 do
