@@ -12,7 +12,7 @@ python -m pip install --upgrade pip
 pip install setuptools
 
 # Installing virtualenv-16.0.0
-export PYTHONVIRTUALENV=16.0.0
+export PYTHONVIRTUALENV=16.1.0
 echo "================= Installing python $PYTHONVIRTUALENV =============="
 pip install -q virtualenv=="$PYTHONVIRTUALENV"
 
