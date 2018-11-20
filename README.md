@@ -5,7 +5,11 @@ Docker image for aarch64 ubuntu 16.04 + python + all services &amp; tools
 **Available python versions**:
 
 1. 2.7.12
-2. 3.7.0
+2. 3.7.1
 
+ u16pytall for ARM 64 architecture Docker Hub repo: [drydock/aarch64_u16pytall](https://hub.docker.com/r/drydock/aarch64_u16nodall/)
 
-Use https://github.com/dry-dock/aarch64_u16all for reference of all services supported.
+  
+**Services:**
+
+Please refer [u16all](https://github.com/dry-dock/aarch64_u16all) for a list of supported services
